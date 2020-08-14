@@ -1,0 +1,37 @@
+@media (max-width:992px){
+	.blog-listing .items{width:50%}
+}
+@media (max-width:767px){
+	.navigation .nav-links{display:inline-block;clear:both;width:100%}
+	.navigation .nav-links>div{display:inline-block;width:100%;text-align:left;clear:both;float:none}
+	.navigation .nav-links>div a{display:block;margin-bottom:15px}
+}
+@media (max-width:600px){
+	.main-navigation.toggled .nav-menu{position:absolute;top:75px;z-index:999;left:10px;right:10px;background:#fff;border:1px solid #333;text-align:left}
+	.main-navigation.toggled .nav-menu li{margin:0!important}
+	.main-navigation.toggled .nav-menu li a{padding:10px 20px}
+	.site-header .header-inner .main-navigation .nav-menu li:last-child a{border-bottom:0}
+	.menu-toggle{background:none!important;color:#ff0000!important;padding:10px 20px!important;cursor:pointer;border:1px solid #ff0000!important;font-family:'Concert One',cursive;text-transform:uppercase;font-weight:normal;display:inline-block}
+	.site-header .header-inner .main-navigation{text-align:right;width:calc(100% - 100px)}
+	.site-header .header-inner .main-navigation .nav-menu li .sub-menu li{display:block;width:100%!important}
+	.site-header .header-inner .main-navigation .nav-menu li .sub-menu li a{width:90%;margin-left:5%;border:none}
+	.site-header .header-inner .main-navigation .nav-menu li .sub-menu{position:inherit;box-shadow:none;background:#f8f8f8;display:none}
+	.site-header .header-inner .main-navigation .nav-menu li.focus .sub-menu{display:flex}
+	.site-header .header-inner .main-navigation .nav-menu li a:after{display:none}
+	.site-header .header-inner .logo{width:100px}
+	.logged-in .main-navigation.toggled .nav-menu{top: 115px;}
+}
+@media (max-width:567px){
+	.blog-listing .items{width:100%}
+	.main-navigation.toggled{}
+	.wp-block-quote.is-large p,
+	.wp-block-quote.is-style-large p,
+	.wp-block-pullquote p{font-size:16px}
+	.wp-block-quote.is-large,
+	.wp-block-quote.is-style-large{padding:8px 10px}
+	.widget-area section.widget_search form{flex-wrap:wrap}
+	.widget-area section.widget_search form label{margin-bottom:10px}
+	.comment-list li article .comment-meta{flex-wrap:wrap}
+	.comment-list li ol.children{padding-left:10px;margin-top:20px}
+	.comment-list li{padding:6px 6px}
+}
